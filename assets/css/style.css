@@ -365,7 +365,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -568,6 +568,71 @@ section {
   border: 2px solid #1f5297;
 }
 
+/*--------------------------------------------------------------
+# Award
+--------------------------------------------------------------*/
+.Award .Award-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+.Award .Award-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+.Award .Award-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 5px;
+}
+.Award .Award-item h5 {
+  font-size: 18px;
+  font-style: italic;
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.Award .Award-item h5.gpa {
+  all: none;
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.Award .Award-item p {
+  margin-bottom: 3px;  
+  margin-top: 0px;
+}
+.Award .Award-item ul {
+  padding-left: 20px;
+}
+.Award .Award-item ul li {
+  padding-bottom: 10px;
+}
+.Award .Award-item:last-child {
+  padding-bottom: 0;
+}
+.Award .Award-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
 
 /*--------------------------------------------------------------
 # Portfolio
